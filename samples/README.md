@@ -1,3 +1,3 @@
 ## SharePoint FrameWork client-side web part additional samples
 
-Additional samples (in addition to those you can get from the SharePoint > sp-dev-fx-webparts repository) around the SharePoint Framework client-side web parts to demonstrate different capabilities and possibilities on the framework. Each sample has it's own dedicated readme file to explain setup instructions and demonstrated capability.
+Additional samples (in addition to those you can get from the SharePoint > sp-dev-fx-webparts repository) around the SharePoint Framework client-side web parts to demonstrate different capabilities and possibilities on the framework. Each sample has it's own dedicated readme file to explain setup instructions and demonstrated capability. NB These samples are primarily based around Angular 2 and Kendo UI for Angular 2.
