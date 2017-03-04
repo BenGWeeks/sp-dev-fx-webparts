@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/requirementsForm/RequirementsFormWebPart.js",
+      "manifest": "./src/webparts/requirementsForm/RequirementsFormWebPart.manifest.json",
+      "outputPath": "./dist/requirements-form.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "requirementsFormStrings": "webparts/requirementsForm/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "new-share-point-app-client-side-solution",
+    "id": "0c76714a-fb56-4e83-8933-33277de5ce6a",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/new-share-point-app.sppkg"
+  }
+}

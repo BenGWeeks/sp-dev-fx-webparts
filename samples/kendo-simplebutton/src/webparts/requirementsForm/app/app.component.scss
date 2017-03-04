@@ -1,0 +1,5 @@
+//@import "../node_modules/bootstrap/scss/bootstrap"; // SASS version
+@import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css"; // CSS version
+
+/* You can add global styles to this file, and also import other style files */
+@import "~@progress/kendo-theme-default/scss/all";
