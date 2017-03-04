@@ -1,6 +1,12 @@
-## new-share-point-app
+## SharePoint Framework client-side web part additional samples
 
-This is where you include your WebPart documentation.
+This repository contains additional web parts
+
+Blog posts of using building these samples will soon be created here:
+
+http://www.webtechy.co.uk
+
+Please feel free to get in touch on Twitter @webtechy.
 
 ### Building the code
 
