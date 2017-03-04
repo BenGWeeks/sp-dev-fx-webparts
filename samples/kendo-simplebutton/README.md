@@ -1,17 +1,45 @@
-## SharePoint Framework client-side web part additional samples
+## kendo-simplebutton
 
-This repository contains additional web parts
+### Summary
 
-Blog posts of using building these samples will soon be created here:
+This solution contains the setup for developing Kendo UI for Angular 2 components within the SharePoint Framework (SPFx).
 
-http://www.webtechy.co.uk
+> Note: This repository uses the initial GA release of the SharePoint Framework as well as the RC.0 of the Kendo UI for Angular 2.
 
-Please feel free to get in touch on Twitter @webtechy.
+### Prerequisites
+
+You will need the following:
+
+* Node.js (v4 or above)
+* NPM (v3 or above)
+* Visual Studio Code (recommended)
+* An account with Telerik
+
+To install the npm packages for Kendo UI for Angular 2, we first need to sign-up for an account. To do this, register for a trial at:
+
+http://www.telerik.com/kendo-angular-ui/getting-started/
+
+Enable the Progress (the company that built Kendo UI for Angular 2 for Telerik) NPM registry:
+
+```bash
+npm login --registry=https://registry.npm.telerik.com/ --scope=@progress
+```
+
+> Note: The username is the first part of your email address before the “@” symbol.
+
+Now confirm it runs, using:
+
+```bash
+npm view @progress/kendo-angular-grid versions
+```
+
+## Used SharePoint Framework Version
+![drop](https://img.shields.io/badge/drop-GA-green.svg)
 
 ### Building the code
 
 ```bash
-git clone the repo
+https://github.com/webtechy/sp-dev-fx-webparts.git
 npm i
 npm i -g gulp
 gulp
@@ -25,8 +53,21 @@ This package produces the following:
 
 ### Build options
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+```
+gulp clean
+gulp test
+gulp serve
+gulp build --ship
+gulp bundle --ship
+gulp package-solution --ship
+```
+
+### Further Information
+
+Blog posts of using building these samples will soon be created here (keep posted):
+
+http://www.webtechy.co.uk
+
+Please feel free to get in touch on Twitter @webtechy.
+
+> Sharing is caring!
