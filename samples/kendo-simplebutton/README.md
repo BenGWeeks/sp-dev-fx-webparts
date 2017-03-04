@@ -64,9 +64,13 @@ gulp package-solution --ship
 
 ### Further Information
 
-Blog posts of using building these samples will soon be created here (keep posted):
+* [Overview of the SharePoint Framework](http://dev.office.com/sharepoint/docs/spfx/sharepoint-framework-overview)
+* [SharePoint Framework development tools and libraries](http://dev.office.com/sharepoint/docs/spfx/tools-and-libraries)
+* [SharePoint Framework Reference](https://sharepoint.github.io/)
+* [Kendo UI for Angular 2](http://www.telerik.com/kendo-angular-ui/)
+* [Webtechy Blog (Coming coon)](http://www.webtechy.co.uk)
 
-http://www.webtechy.co.uk
+Blog posts of using building these samples will soon be created at the link above - keep posted.
 
 Please feel free to get in touch on Twitter @webtechy.
 
