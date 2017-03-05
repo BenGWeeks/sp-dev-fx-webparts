@@ -1,6 +1,6 @@
 {
   "workingDir": "./temp/deploy/",
   "account": "<!-- STORAGE ACCOUNT NAME -->",
-  "container": "new-share-point-app",
+  "container": "kendo-simplebutton",
   "accessKey": "<!-- ACCESS KEY -->"
 }
