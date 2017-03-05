@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "16a5cd3f-6017-4c92-afe3-3b779d04a852",
+  "alias": "RequirementsFormWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "16a5cd3f-6017-4c92-afe3-3b779d04a852",
+    "group": { "default": "Under Development" },
+    "title": { "default": "RequirementsForm" },
+    "description": { "default": "This is the description of the webpart" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "RequirementsForm"
+    }
+  }]
+}

@@ -1,0 +1,69 @@
+  <div class="wt-termSetRequester">
+    <div class="wt-taxonomyContainer">
+      <div class="wt-taxonomy">
+        <ul class="wt-termStoreList">
+          <li *ngFor="let termStore of termStores">
+            <div class="wt-info">
+                <b title="{{termStore.id}}">{{termStore.name}}</b>
+                <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+                    <i class="ms-Icon ms-Icon--ChevronDown" [ngClass]="{'is-collapsed': !termStore.isExpanded}" (click)="termStore.actionClick()"></i>
+                </button>
+            </div>
+            <ul [hidden]="!termStore.isExpanded" class="wt-termGroupList">
+              <li *ngFor="let termGroup of termStore.termGroups">
+                <div class="wt-info">
+                  <b title="{{termGroup.id}}">{{termGroup.name}}</b>
+                  <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+                    <i class="ms-Icon ms-Icon--ChevronDown" [ngClass]="{'is-collapsed': !termGroup.isExpanded}" (click)="termGroup.actionClick()"></i>
+                  </button>
+                </div>
+                <ul [hidden]="!termGroup.isExpanded" class="wt-termSetList">
+                  <li *ngFor="let termSet of termGroup.termSets">
+                    <div class="wt-info">
+                      <b title="{{termSet.id}}">{{termSet.name}}</b>
+                      <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+                        <i class="ms-Icon ms-Icon--ChevronDown" [ngClass]="{'is-collapsed': !termSet.isExpanded}" (click)="termSet.actionClick()"></i>
+                      </button>
+                    </div>
+                    <ul [hidden]="!termSet.isExpanded" class="wt-termList">
+                      <li *ngFor="let term of termSet.terms">
+                        <div class="wt-info">
+                          <b title="{{term.id}}">{{term.name}}</b>
+                          <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+                            <i class="ms-Icon ms-Icon--ChevronDown" [hidden]="!term.hasChildTerms" (click)="term.actionClick" [ngClass]="{'is-collapsed': !term.hasChildTerms}"></i>
+                          </button>
+                        </div>
+                        <ul [hidden]="!termSet.isExpanded" class="wt-termList">
+                          <li *ngFor="let term of term.terms">
+                            <div class="wt-info">
+                              <b title="{{term.id}}">{{term.name}}</b>
+                              <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+                                <i class="ms-Icon ms-Icon--ChevronDown" [hidden]="!term.hasChildTerms" (click)="term.actionClick" [ngClass]="{'is-collapsed': !term.hasChildTerms}"></i>
+                              </button>
+                            </div>
+                            <ul [hidden]="!termSet.isExpanded" class="wt-termList">
+                              <li *ngFor="let term of term.terms">
+                                <div class="wt-info">
+                                  <b title="{{term.id}}">{{term.name}}</b>
+                                  <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+                                    <i class="ms-Icon ms-Icon--ChevronDown" [hidden]="!term.hasChildTerms" (click)="term.actionClick" [ngClass]="{'is-collapsed': !term.hasChildTerms}"></i>
+                                  </button>
+                                </div>
+                                <ul [hidden]="!termSet.isExpanded" class="wt-termList">
+
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>

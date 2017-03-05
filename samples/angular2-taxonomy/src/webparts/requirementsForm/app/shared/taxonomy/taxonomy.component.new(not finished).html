@@ -1,0 +1,72 @@
+  <div class="wt-taxonomy">
+    <ul class="wt-termStoreList">
+      <li *ngFor="let termStore of termStores">
+      </li>
+      <!-- ko template: { name: 'termStoreTpl', foreach: termStores } -->
+      <!-- /ko -->
+    </ul>
+  </div>
+
+  <script id="termStoreTpl" type="text/html">
+    <li>
+      <div class="gt-info">
+        <b title="{{termStore.id}}">{{termStore.name}}</b></span>
+        <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+          <i class="ms-Icon ms-Icon--ChevronDown" (click)="termStore.actionClick()" [ngClass]="{'is-collapsed': !termStore.isExpanded}"></i>
+        </button>
+      </div>
+      <ul [hidden]="!termStore.isExpanded" class="wt-termGroupList">
+        <!-- ko template: { name: 'termGroupTpl', foreach: termGroups } -->
+        <!-- /ko -->
+      </ul>
+    </li>
+  </script>
+
+  <script id="termGroupTpl" type="text/html">
+    <li>
+      <div class="wt-info">
+        <b title="{{termGroup.id}}">{{termGroup.name}}</b></span>
+        <button class="ms-GroupHeader-expand groupHeaderExpand">
+          <i class="ms-Icon ms-Icon--ChevronDown" (click)="termGroup.actionClick()" [ngClass]="{'is-collapsed': !itermGroup.sExpanded }"></i>
+        </button>
+      </div>
+      <ul [hidden]="!termGroup.isExpanded" class="gt-termSetList">
+        <!-- ko template: { name: 'termSetTpl', foreach: termSets } -->
+        <!-- /ko -->
+      </ul>
+    </li>
+  </script>
+
+  <script id="termSetTpl" type="text/html">
+    <li>
+      <div class="gt-info">
+        <b title="{{termSet.id}}">{{termSet.name}}</b></span>
+        <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+          <i class="ms-Icon ms-Icon--ChevronDown" (click)="termSet.actionClick()" [ngClass]="{'is-collapsed': !termSet.isExpanded }"></i>
+        </button>
+      </div>
+      <ul [hidden]="!termSet.isExpanded" class="wt-termList">
+        <!-- ko template: { name: 'termTpl', foreach: terms } -->
+        <!-- /ko -->
+      </ul>
+    </li>
+  </script>
+
+  <script id="termTpl" type="text/html">
+    <li>
+      <div class="${styles.info}">
+        <b title="{{term.id}}">{{term.name}}</b></span>
+        <button class="ms-GroupHeader-expand wt-groupHeaderExpand">
+          <i class="ms-Icon ms-Icon--ChevronDown" [hidden]="!term.hasChildTerms" (click)="term.actionClick" [ngClass]="{'is-collapsed': !term.isExpanded }"></i>
+        </button>
+      </div>
+      Labels:<br/>
+      <div data-bind="foreach: labels">
+        <div>Value: <span data-bind="text: value"></span>; Language: <span data-bind="text: language"></span>; Is Default: <span data-bind="text: isDefaultForLanguage"></span></div>
+      </div>
+      <ul data-bind="visible: isExpanded" class="wt-termList">
+        <!-- ko template: { name: 'termTpl', foreach: terms } -->
+        <!-- /ko -->
+      </ul>
+    </li>
+  </script>

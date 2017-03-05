@@ -4,6 +4,33 @@ This repository contains additional web parts to be supplied over and above the 
 
 > Note: This repository uses the initial GA release of the SharePoint Framework as well as the RC.0 of the Kendo UI for Angular 2.
 
+### Prerequisites
+
+You will need the following:
+
+* Node.js (v4 or above)
+* NPM (v3 or above)
+* Visual Studio Code (recommended)
+* An account with Telerik
+
+To install the npm packages for Kendo UI for Angular 2, we first need to sign-up for an account. To do this, register for a trial at:
+
+http://www.telerik.com/kendo-angular-ui/getting-started/
+
+Enable the Progress (the company that built Kendo UI for Angular 2 for Telerik) NPM registry:
+
+```bash
+npm login --registry=https://registry.npm.telerik.com/ --scope=@progress
+```
+
+> Note: The username is the first part of your email address before the “@” symbol.
+
+Now confirm it runs, using:
+
+```bash
+npm view @progress/kendo-angular-grid versions
+```
+
 ### Using the samples
 
 To build and start using these projects, you'll need to clone and build the projects. 
