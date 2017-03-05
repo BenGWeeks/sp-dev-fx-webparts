@@ -1,10 +1,10 @@
 {
   "solution": {
-    "name": "angular-2-taxonomy-client-side-solution",
+    "name": "angular2-taxonomy-client-side-solution",
     "id": "5b4f9ee9-85fe-4a1a-9418-3cdee16581e3",
     "version": "1.0.0.0"
   },
   "paths": {
-    "zippedPackage": "solution/angular-2-taxonomy.sppkg"
+    "zippedPackage": "solution/angular2-taxonomy.sppkg"
   }
 }

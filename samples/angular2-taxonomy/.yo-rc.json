@@ -1,6 +1,6 @@
 {
   "@microsoft/generator-sharepoint": {
-    "libraryName": "angular-2-taxonomy",
+    "libraryName": "angular2-taxonomy",
     "framework": "none",
     "version": "1.0.0",
     "libraryId": "5b4f9ee9-85fe-4a1a-9418-3cdee16581e3"

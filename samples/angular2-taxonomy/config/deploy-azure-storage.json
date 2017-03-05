@@ -1,6 +1,6 @@
 {
   "workingDir": "./temp/deploy/",
   "account": "<!-- STORAGE ACCOUNT NAME -->",
-  "container": "angular-2-taxonomy",
+  "container": "angular2-taxonomy",
   "accessKey": "<!-- ACCESS KEY -->"
 }
