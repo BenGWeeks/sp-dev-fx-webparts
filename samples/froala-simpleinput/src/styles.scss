@@ -1,0 +1,57 @@
+//@import "../node_modules/bootstrap/scss/bootstrap"; // SASS version
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; // CSS version
+
+.gt-container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 750px;
+}
+
+.gt-container-form {
+  padding: 10px;
+}
+
+.k-dropdown, .k-textbox {
+  width: 100%;
+}
+
+.k-tabstrip {
+  overflow-x: hidden !important;
+}
+
+.gt-fieldset {
+  margin: 0px;
+  border-color: rgba(0, 0, 0, 0.08);
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+}
+
+.gt-textbox {
+  width: 100%;
+}
+
+.gt-legend {
+  width: auto;
+  margin-left: 10px;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.gt-row {
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.gt-col-buttons {
+  text-align: right;
+}
+
+.gt-col-addremovebuttons {
+  text-align: center;
+}
+
+.k-filter-row th, .k-grid-header th.k-header {
+  line-height: 1em;
+}

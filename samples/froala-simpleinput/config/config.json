@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/requirementsForm/RequirementsFormWebPart.js",
+      "manifest": "./src/webparts/requirementsForm/RequirementsFormWebPart.manifest.json",
+      "outputPath": "./dist/requirements-form.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery":"node_modules/jquery/dist/jquery.min.js",
+    //"@angular/core": "node_modules/@angular/core/bundles/core.umd.min.js",
+    //"@angular/common": "node_modules/@angular/common/bundles/common.umd.min.js",
+    //"@angular/compiler": "node_modules/@angular/compiler/bundles/compiler.umd.min.js",
+    //"@angular/platform-browser": "node_modules/@angular/platform-browser/bundles/platform-browser.umd.min.js",
+    //"@angular/platform-browser-dynamic": "node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js",
+    //"@angular/http": "node_modules/@angular/http/bundles/http.umd.min.js",
+    //"@angular/router": "node_modules/@angular/router/bundles/router.umd.min.js",
+    //"@angular/forms": "node_modules/@angular/forms/bundles/forms.umd.min.js",
+    //"@progress/kendo-angular-buttons": "node_modules/@progress/kendo-angular-buttons/dist/cdn/js/kendo-angular-buttons.js",
+    //"@progress/kendo-angular-dialog": "node_modules/@progress/kendo-angular-dialog/dist/cdn/js/kendo-angular-dialog.js",
+    //"@progress/kendo-angular-dropdowns": "node_modules/@progress/kendo-angular-dropdowns/dist/cdn/js/kendo-angular-dropdowns.js",
+    //"@progress/kendo-angular-grid": "node_modules/@progress/kendo-angular-grid/dist/cdn/js/kendo-angular-grid.js",
+    //"@progress/kendo-angular-inputs": "node_modules/@progress/kendo-angular-inputs/dist/cdn/js/kendo-angular-inputs.js",
+    //"@progress/kendo-angular-intl": "node_modules/@progress/kendo-angular-intl/dist/cdn/js/kendo-angular-intl.js",
+    //"@progress/kendo-angular-l10n": "node_modules/@progress/kendo-angular-l10n/dist/cdn/js/kendo-angular-l10n.js",
+    //"@progress/kendo-angular-layout": "node_modules/@progress/kendo-angular-layout/dist/cdn/js/kendo-angular-layout.js",
+    //"@progress/kendo-angular-popup": "node_modules/@progress/kendo-angular-popup/dist/cdn/js/kendo-angular-popup.js",
+    //"@progress/kendo-angular-upload": "node_modules/@progress/kendo-angular-upload/dist/cdn/js/kendo-angular-upload.js",
+    //"@progress/kendo-data-query": "node_modules/@progress/kendo-data-query/dist/cdn/js/kendo-data-query.js",
+    //"@progress/kendo-theme-default": "node_modules/@progress/kendo-data-query/dist/cdn/js/kendo-theme-default.js",
+    "sp-pnp-js": "node_modules/sp-pnp-js/dist/pnp.min.js",
+    "rxjs": "node_modules/rxjs"
+  },
+  "localizedResources": {
+    "requirementsFormStrings": "webparts/requirementsForm/loc/{locale}.js"
+  }
+}

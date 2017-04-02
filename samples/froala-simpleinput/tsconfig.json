@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    //"outDir": "dist",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "es6-promise",
+      "es6-collections",
+      "webpack-env"
+    ]
+    //"lib": ["es2015", "dom"],
+    /*
+    "exclude": [
+      "node_modules", //<-- this would be needed in case of VS2015
+      "node_modules/@typings",
+      "typings"
+    ]*/
+    /*
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      //"es6-promise",
+      //"es6-collections",
+      "core-js",
+      "webpack-env"
+    ]*/
+  }/*,
+  "exclude": [
+    "node_modules"
+  ]*/
+}

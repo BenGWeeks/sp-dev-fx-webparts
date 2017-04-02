@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "sharepoint-app",
+    "libraryId": "fc27044e-4987-44aa-8143-f50a0ff74900",
+    "framework": "none"
+  }
+}

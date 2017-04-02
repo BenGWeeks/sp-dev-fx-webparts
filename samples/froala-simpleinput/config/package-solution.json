@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "Froala Simple Input",
+    "id": "ac27044e-4987-44aa-8143-f50a0ff74900",
+    "version": "1.0.0.2"
+  },
+  "paths": {
+    "zippedPackage": "solution/froala-simpleinput.sppkg"
+  }
+}

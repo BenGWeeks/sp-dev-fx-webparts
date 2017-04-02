@@ -1,0 +1,14 @@
+{
+  // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+  "typescript.tsdk": "./node_modules/typescript/lib", // Default: null
+  //"typescript.tsdk": "C:\\Projects\\GrantThornton\\RART\\SharePointApp\\node_modules\\typescript\\lib",
+
+  // Disables automatic type acquisition. Requires TypeScript >= 2.0.6 and a restart after changing it.
+  "typescript.disableAutomaticTypeAcquisition": true, // Default: false
+
+  // Check if a TypeScript version is available in the workspace.
+  "typescript.check.workspaceVersion": false, // Default: true
+
+  // Check if a global install TypeScript compiler (e.g. tsc) differs from the used TypeScript language service.
+  "typescript.check.tscVersion": false // Default: true
+}
