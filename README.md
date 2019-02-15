@@ -90,6 +90,6 @@ gulp package-solution --ship
 
 Blog posts of using building these samples will soon be created at the link above - keep posted.
 
-Please feel free to get in touch on Twitter [@CieloCostaUK](https://twitter.com/CieloCostaUK).
+Please feel free to get in touch on Twitter [@webtechy](https://twitter.com/webtechy).
 
 > Sharing is caring!
